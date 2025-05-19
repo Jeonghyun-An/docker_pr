@@ -7,7 +7,7 @@ COPY . .
 RUN npm install
 ARG MODE=production
 ENV NODE_ENV=$MODE
-RUN npm run build --mode $MODE
+RUN npm run build -- --mode=$MODE
 
 
 
