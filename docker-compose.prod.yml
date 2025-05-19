@@ -1,0 +1,10 @@
+version: "3"
+services:
+    vue3-app:
+        build:
+            context: .
+            args:
+                MODE: production
+        ports:
+            - "8080:80"
+        container_name: vue3-prod
