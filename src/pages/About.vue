@@ -1,4 +1,10 @@
 <template>
-    <h1>소개 화면입니다</h1>
+    <div>
+        <h1>About Page</h1>
+        <p>This is the about page of our application.</p>
+    </div>
 </template>
-<script setup></script>
+
+<script setup lang="ts">
+import { useRoute } from "vue-router";
+</script>
