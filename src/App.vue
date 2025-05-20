@@ -18,7 +18,7 @@ console.log(import.meta.env.VITE_API_URL);
             <HelloWorld msg="You did it!" />
         </div>
     </header>
-
+    <RouterView />
     <main>
         <TheWelcome />
     </main>
